@@ -5,5 +5,5 @@ if [ "$#" -eq 0 ]; then
   exit 1  
 else
   array=( "$@" )
-  printf "%s\n" "$(shuf -e --random-source=/dev/urandom ${array[@]})"
+  printf "%s\n" "$(shuf -e --random-source=/dev/random ${array[@]})"
 fi

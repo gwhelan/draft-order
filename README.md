@@ -12,3 +12,5 @@ gary/meredith
 eric/jen
 ```
 
+# TIPs
+Run the haveged daemon on your machine to generate entropy, otherwise you may run into entropy exhaustion or the randomness may suffer
